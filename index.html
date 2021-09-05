@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+ 
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
    <main>
+    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+        <button type="button" class="btn btn-danger" id="oneMin">1 min</button>
+        <button type="button" class="btn btn-warning">2 min</button>
+        <button type="button" class="btn btn-success">3 min</button>
+      </div>
        <div class="container">
            <div id="timer">
-               <h1 id="timer_display">00:00:00</h1>
+               <h1 id="timer_display">00:00</h1>
            </div>
+           
        </div>
    </main> 
    <script src="script.js"></script>

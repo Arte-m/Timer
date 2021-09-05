@@ -1,29 +1,36 @@
 body{
     overflow: hidden;
     font-family: 'software_tester_7regular';
-    background: linear-gradient(180deg,white, #32324e);
+    background: linear-gradient(270deg,rgb(236, 226, 85), #51be26);
   }
   .container{
     width: 1280px;
     margin: auto;
     cursor: pointer;
+    border: 1px solid #848883;
+  }
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
   }
   #timer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 10vh;
   }
   
   #timer h1{
     user-select: none;
-    color: #fff;
+    color: rgb(255, 0, 0);
     font-size: 8vw;
   }
   
   @media(max-width:1280px){
     .container{
-      width: 95%;
+      width: 50%;
     }
   }
   
